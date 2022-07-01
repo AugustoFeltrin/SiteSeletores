@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(Imagens/Empresa.jpg);
+    height: 70vh;
+}
+header h1{
+    color: white;
+    font-size: 10vh;
+    margin-left: 40%;
+}
+
+
+article h1{
+    margin-left: 10%;
+    margin-top: 3%;
+    justify-content: center;
+    font-size: 4vh;
+
+}
+
+button{
+    color: white;
+    background-color:rgb(231,96,66);
+    border-radius: 30%;
+    transform: scale(1.05);
+    border: none;
+    height: 6vh;
+    line-height: 0;
+    padding: 0 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: small;
+}
