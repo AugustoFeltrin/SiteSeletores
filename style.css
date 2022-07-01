@@ -1,24 +1,34 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-image: url(Imagens/Empresa.jpg);
-    height: 70vh;
+    background-color: green;
 }
-header h1{
+
+header h1{  
     color: white;
-    font-size: 10vh;
-    margin-left: 40%;
+    top: -28%;
+    left: -28%;
 }
 
-
+article{
+    background-color: aqua;
+}
 article h1{
     margin-left: 10%;
     margin-top: 3%;
     justify-content: center;
     font-size: 4vh;
+}
+main{
+    border-left: 20%;
+}
 
+footer{
+    background-color: gray;
 }
 
 button{
