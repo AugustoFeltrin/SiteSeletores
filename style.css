@@ -28,8 +28,7 @@ article h1{
 }
 
 article p{
-    justify-content: space-between;
-
+    justify-content: space-between;   
 }
 
 article img{
@@ -38,3 +37,11 @@ article img{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+footer{
+    background-color: darkgray;
+    margin-top: 5%;
+    
+}
+
+
