@@ -31,6 +31,18 @@ article p{
     justify-content: space-between;   
 }
 
+article p:first-of-type{
+    color: blueviolet;
+}
+
+article p:nth-of-type(2){
+    color: green;
+}
+
+article p:last-of-type{
+    color: red;
+}
+
 article img{
     height: 50vh;
     width: auto;
@@ -41,7 +53,74 @@ article img{
 footer{
     background-color: darkgray;
     margin-top: 5%;
-    
+    display: flex ;
+    justify-content:space-around ;  
+    height: 50vh;  
 }
 
+footer section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer section:first-of-type h4{
+    color:chartreuse;
+}
+
+footer section:nth-of-type(2) h4{
+    color: deeppink;
+}
+
+footer section:last-of-type h4{
+    color: darkmagenta	;
+}
+
+footer section:first-of-type p{
+    color:royalblue;
+}
+
+footer section:nth-of-type(2) p{
+    color: tomato;
+}
+
+footer section:last-of-type p{
+    color: darkorchid;
+}
+
+footer img{
+    width: 20vh;
+    height:auto;
+}
+
+footer p{
+    font-size: 2,5vh;
+}
+
+footer button{
+    color: white;
+    background-color:darkblue;
+    border-radius: 15%;
+    transform: scale(1.05);
+    border: none;
+    height: 10%;
+    line-height: 0px;
+    padding: 0 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+}
+
+footer button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer section:first-of-type button{
+    background-color: greenyellow;
+    color: blue;
+}
+footer section:nth-of-type(2) button{
+    background-color: crimson;
+    color: yellow;
+}
 
